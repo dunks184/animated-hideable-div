@@ -1,0 +1,7 @@
+{
+  "name": "@wcd/dunks184.animation-example",
+  "version": "0.0.0",
+  "scripts": {
+    "serve": "npx wcd-cli@latest serve QxBqUVAnM7AEFXc0N3q9 --open"
+  }
+}

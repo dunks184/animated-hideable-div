@@ -1,0 +1,25 @@
+<template>
+  <lightning-layout multiple-rows>
+    <lightning-layout-item padding="horizontal-small" size="6">
+      <lightning-input class="accountRequestField" name="AS_Address__c" label="Address" required="true"
+        type="text-area">
+      </lightning-input>
+    </lightning-layout-item>
+    <lightning-layout-item padding="horizontal-small" size="6">
+      <lightning-input class="accountRequestField" name="AS_City__c" label="City" required="true" type="text"
+        max-length="40">
+      </lightning-input>
+    </lightning-layout-item>
+    <lightning-layout-item padding="horizontal-small" size="6">
+      <!-- TODO: change state to combobox -->
+      <lightning-input class="accountRequestField" name="AS_State__c" label="State" required="true" type="text"
+        max-length="10">
+      </lightning-input>
+    </lightning-layout-item>
+    <lightning-layout-item padding="horizontal-small" size="6">
+      <lightning-input class="accountRequestField" name="AS_Post_Code__c" label="Post Code" required="true" type="text"
+        max-length="10">
+      </lightning-input>
+    </lightning-layout-item>
+  </lightning-layout>
+</template>

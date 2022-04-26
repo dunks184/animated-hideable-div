@@ -1,0 +1,14 @@
+.box {
+    height: 0px;
+    transition: height 1s;
+    /* background-color: blueviolet; */
+    overflow: hidden;
+}
+
+.open {
+    height: 130px;
+}
+
+.closed {
+    height: 0px;
+}
