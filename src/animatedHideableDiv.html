@@ -1,0 +1,11 @@
+<template>
+  <lightning-input type="toggle" label="Same address as above?" onchange={handleToggle}
+      message-toggle-active="Address values will be obtained from Office fields on submit"
+      message-toggle-inactive="Fill out this section with new information">
+    </lightning-input>
+    <div class="box open" ontransitionstart={handleTransitionStart} ontransitionend={handleTransitionEnd}>
+      <template if:true={areFieldsVisible}>
+        <c-address-fields></c-address-fields>
+      </template>
+    </div>
+  </template>
